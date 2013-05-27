@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: Apple Lossless Audio Codec
+Description: ALAC library
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lalac
+Cflags: -I${includedir}
