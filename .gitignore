@@ -7,4 +7,4 @@
 
 Makefile.in
 
-/m4/*.m4
+m4/*.m4
