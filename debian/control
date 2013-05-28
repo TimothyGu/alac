@@ -1,0 +1,20 @@
+Source: alac
+Section: unknown
+Priority: extra
+Maintainer: Timothy Gu <timothygu99@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/alac.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/alac.git;a=summary
+
+Package: alac
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: alac-doc
+Architecture: all
+Description: documentation for alac
+ <insert long description, indented with spaces>
