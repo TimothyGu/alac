@@ -25,3 +25,11 @@ Documentation
 =============
 Either look at the .txt's in the repo or go to 
 [Apple's website](http://alac.macosforge.org/).
+
+Bugs Report
+===========
+If you found some difficulty building it, open a new issue. Otherwise,
+don't bother me. Note that I am not a programmer. So if you have any
+patch regarding the sources I'm sorry I can't apply it. But if it is
+about the building system, feel free to open a new  pull request or
+an issue.
