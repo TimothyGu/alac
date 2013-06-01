@@ -10,7 +10,3 @@ EXAMPLE_DIR=convert-utility
 endif
 
 SUBDIRS = codec $(EXAMPLE_DIR)
-
-# Todo:
-# * Add recursive
-# * Add EXTRA_DIST
