@@ -48,19 +48,28 @@ an issue.
 ## Authors
 
 * debian/&#42;, Makefile.am, &#42;/Makefile.am, alac.pc.in,
-alacconvert.1, configure.ac, README.md, .gitignore, m4/.gitkeep:
+alacconvert.1, configure.ac, README.md:
 **Tiancheng "Timothy" Gu**
-
-* Makefile.in, &#42;/Makefile.in, config.&#42;, depcomp, ltmain.sh,
-missing: **Free Software Foundation, Inc.**
-
-* install-sh: **X Consortium**
 
 * The rest: **Apple Inc.**
 
-## To-do:
+## To-do
 
-* Copyright notices
 * Complete & working Debian build toolchain
 * `EXTRA_DIST` variable in Makefile.am's
 * Visual Studio project files
+
+## Copyright of this file
+
+Copyright (c) 2013 Tiancheng "Timothy" Gu
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

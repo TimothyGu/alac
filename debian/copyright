@@ -1,14 +1,14 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: alac
-Source: <url://example.com>
+Source: http://alac.macosforge.org/
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2011 Apple Inc.
 License: Apache-2.0
 
-Files: debian/*
-Copyright: 2013 Timothy Gu <timothygu99@gmail.com>
+Files: debian/*, Makefile.am, */Makefile.am, alac.pc.in,
+alacconvert.1, configure.ac, README.md
+Copyright: 2013 Tiancheng "Timothy" Gu <timothygu99@gmail.com>
 License: Apache-2.0
 
 License: Apache-2.0
@@ -26,8 +26,3 @@ License: Apache-2.0
  .
  On Debian systems, the complete text of the Apache version 2.0 license
  can be found in "/usr/share/common-licenses/Apache-2.0".
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid to pick license terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
