@@ -16,6 +16,7 @@
 # This has to be exported to make some magic below work.
 export DH_OPTIONS
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 %:
 	dh $@  --with autotools-dev
