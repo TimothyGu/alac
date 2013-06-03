@@ -9,18 +9,32 @@ autotools.
 
 * Method No. 1: Classic GNU
 
-```
-autoreconf
+```bash
+autoreconf -i
 ./configure
+# Or if you want to
+# ./configure --enable-example
 make
 sudo make install
 ```
 
 * **Unstable** method No. 2: Work with `dpkg`.
 
-```
+If you want to install Debian packages (.deb), you can do:
+
+```bash
 dpkg-buildpackage
 ```
+
+The .deb's will be in the parent folder of the source code directory.
+
+* **Not yet** method No. 3: Personal Packages Archive
+
+**I have not yet create a PPA, so ignore this method!!**
+
+If you are too lazy to download the build the sources yourself, and is
+using Ubuntu or something like that, you can just install it from my PPA
+at Launchpad. (I guess you know how to add a PPA to your system)
 
 ## What's included
 
