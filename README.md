@@ -1,9 +1,24 @@
+<!------------------------------------------------------------------------
+ !Copyright (c) 2013 Tiancheng "Timothy" Gu
+ !Licensed under the Apache License, Version 2.0 (the "License");
+ !you may not use this file except in compliance with the License.
+ !You may obtain a copy of the License at
+ !
+ !    http://www.apache.org/licenses/LICENSE-2.0
+ !
+ !Unless required by applicable law or agreed to in writing, software
+ !distributed under the License is distributed on an "AS IS" BASIS,
+ !WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ !See the License for the specific language governing permissions and
+ !limitations under the License.
+ !----------------------------------------------------------------------->
+
 ALAC
 ====
 
 Apple Lossless Audio Codec with autotools. This repo uses the source
 code from http://alac.macosforge.org/ and wrap it around using
-autotools.
+autotools and (incomplete) Debian build toolchain
 
 ## How to build
 
@@ -18,7 +33,7 @@ make
 sudo make install
 ```
 
-* **Unstable** method No. 2: Work with `dpkg`.
+* **Incomplete** method No. 2: Work with `dpkg`.
 
 If you want to install Debian packages (.deb), you can do:
 
@@ -70,20 +85,6 @@ alacconvert.1, configure.ac, README.md:
 ## To-do
 
 * Complete & working Debian build toolchain
+* PPA
 * `EXTRA_DIST` variable in Makefile.am's
 * Visual Studio project files
-
-## Copyright of this file (README.md)
-
-Copyright (c) 2013 Tiancheng "Timothy" Gu
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
