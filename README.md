@@ -59,7 +59,7 @@ alacconvert.1, configure.ac, README.md:
 * `EXTRA_DIST` variable in Makefile.am's
 * Visual Studio project files
 
-## Copyright of this file
+## Copyright of this file (README.md)
 
 Copyright (c) 2013 Tiancheng "Timothy" Gu
 Licensed under the Apache License, Version 2.0 (the "License");
