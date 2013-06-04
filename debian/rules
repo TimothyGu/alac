@@ -22,4 +22,5 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 	dh $@  --with autotools-dev
 
 override_dh_auto_configure:
+	autoreconf -i
 	dh_auto_configure -- --enable-example
