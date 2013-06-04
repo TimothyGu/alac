@@ -19,7 +19,8 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = alac.pc
 
 if EXAMPLE
-EXAMPLE_DIR=convert-utility
+EXAMPLE_DIR = convert-utility
+man1_MANS = alacconvert.1
 endif
 
 SUBDIRS = codec $(EXAMPLE_DIR)
