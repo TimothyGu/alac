@@ -18,14 +18,21 @@ ALAC
 
 Apple Lossless Audio Codec with autotools. This repo uses the source
 code from http://alac.macosforge.org/ and wrap it around using
-autotools and (incomplete) Debian build toolchain
+autotools and (incomplete) Debian build toolchain.
+
+## Prerequisites, if you want to build it yourself
+
+* git: to clone this repo. Optional if you are using a tarball.
+* gcc: to compile stuff.
+* g++: to compile stuff.
+* autotools: to generate the build files.
 
 ## How to build
 
-* Method No. 1: Classic GNU
+### Classic GNU
 
 ```bash
-autoreconf -i
+autoreconf -i -f
 ./configure
 # Or if you want to
 # ./configure --enable-example
@@ -33,23 +40,42 @@ make
 sudo make install
 ```
 
-* **Incomplete** method No. 2: Work with `dpkg`.
+### Debian packaging
 
-If you want to install Debian packages (.deb), you can do:
+This method works if:
+* You are using a system using dpkg (like Debian, Ubuntu, etc.)
+* And you want .deb's.
 
-```bash
-dpkg-buildpackage
-```
+**I strongly suggest you to know how the Debian packaging works before
+  using this method.**
 
-The .deb's will be in the parent folder of the source code directory.
+1. You need to have a packaging environment.
+  * If you are a maintainer or you know how to package a deb or you have
+    a PPA, skip to step 3.
+  * If you don't know anything about Debian packaging, go to step 2.
+2. Set up packaging environment.
+  * Look [here](http://www.debian.org/doc/manuals/maint-guide/start.en.html)
+    for Debian users and [here](http://developer.ubuntu.com/packaging/html/getting-set-up.html)
+    for Ubuntu users.
+3. Edit debian/changelog.
+  * Change YOURNAME to your name, and YOUREMAIL to your email.
+  * Change raring to whatever your distro codename is.
+4. Do:
+   ```
+   dpkg-buildpackage
+   ```
+5. The .deb's will be in the parent folder of the source code directory.
 
-* **Not yet** method No. 3: Personal Packages Archive
+<!--
+## Binaries
 
-**I have not yet create a PPA, so ignore this method!!**
+### Personal Packages Archive
 
 If you are too lazy to download the build the sources yourself, and is
 using Ubuntu or something like that, you can just install it from my PPA
 at Launchpad. (I guess you know how to add a PPA to your system)
+
+-->
 
 ## What's included
 
