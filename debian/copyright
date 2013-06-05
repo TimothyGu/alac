@@ -6,8 +6,7 @@ Files: *
 Copyright: 2011 Apple Inc.
 License: Apache-2.0
 
-Files: debian/*, Makefile.am, */Makefile.am, alac.pc.in,
-alacconvert.1, configure.ac, README.md
+Files: debian/* Makefile.am */Makefile.am alac.pc.in alacconvert.1 configure.ac README.md
 Copyright: 2013 Tiancheng "Timothy" Gu <timothygu99@gmail.com>
 License: Apache-2.0
 
