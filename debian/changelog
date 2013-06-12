@@ -1,5 +1,11 @@
+alac (0.0r4+tg0~beta2) raring; urgency=low
+
+  * Add automake and autoconf to Build-depends.
+
+ -- Timothy Gu <timothygu99@gmail.com>  Tue, 11 Jun 2013 19:12:44 -0700
+
 alac (0.0r4+tg0~beta1) raring; urgency=low
 
   * Initial release.
 
- -- YOURNAME <YOUREMAIL>  Sat, 01 Jun 2013 12:01:35 -0700
+ -- Timothy Gu <timothygu99@gmail.com>  Sat, 01 Jun 2013 12:01:35 -0700
