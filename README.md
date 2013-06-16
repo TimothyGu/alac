@@ -18,7 +18,7 @@ ALAC
 
 Apple Lossless Audio Codec with autotools. This repo uses the source
 code from http://alac.macosforge.org/ and wrap it around using
-autotools and (incomplete) Debian build toolchain.
+autotools and Debian build toolchain.
 
 ## Prerequisites, if you want to build it yourself
 
@@ -58,7 +58,7 @@ This method works if:
     for Debian users and [here](http://developer.ubuntu.com/packaging/html/getting-set-up.html)
     for Ubuntu users.
 3. Edit debian/changelog.
-  * Change YOURNAME to your name, and YOUREMAIL to your email.
+  * Change my name to your name, and my email to your email.
   * Change raring to whatever your distro codename is.
 4. Do:
    ```
@@ -110,7 +110,6 @@ alacconvert.1, configure.ac, README.md:
 
 ## To-do
 
-* Complete & working Debian build toolchain
 * PPA
 * `EXTRA_DIST` variable in Makefile.am's
 * Visual Studio project files
