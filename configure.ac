@@ -14,7 +14,7 @@ dnl WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 dnl See the License for the specific language governing permissions and
 dnl limitations under the License.
 
-AC_INIT([alac], [0.0r4], [nobody])
+AC_INIT([alac], [0.0r4+tg1], [nobody])
 AC_CONFIG_AUX_DIR(.)
 AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([tar-ustar foreign])
