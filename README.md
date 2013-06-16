@@ -100,6 +100,15 @@ patch regarding the sources I'm sorry I can't apply it. But if it is
 about the building system, feel free to open a new  pull request or
 an issue.
 
+## Versioning scheme
+
+(upstream_major).(upstream_minor)r(upstream_revision)+tg(my_release_number)
+
+The upstream major and minor are both 0 because Apple never made a
+release. The upstream revision is 4 because the SVN revision I pulled out
+from is 4. My release number is of course my release number. "tg" is my
+initials.
+
 ## Authors
 
 * debian/&#42;, Makefile.am, &#42;/Makefile.am, alac.pc.in,
