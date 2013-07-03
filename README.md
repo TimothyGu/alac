@@ -1,17 +1,17 @@
-<!------------------------------------------------------------------------
- !Copyright (c) 2013 Tiancheng "Timothy" Gu
- !Licensed under the Apache License, Version 2.0 (the "License");
- !you may not use this file except in compliance with the License.
- !You may obtain a copy of the License at
- !
- !    http://www.apache.org/licenses/LICENSE-2.0
- !
- !Unless required by applicable law or agreed to in writing, software
- !distributed under the License is distributed on an "AS IS" BASIS,
- !WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- !See the License for the specific language governing permissions and
- !limitations under the License.
- !----------------------------------------------------------------------->
+<!------------------------------------------------------------------------!
+ !Copyright (c) 2013 Tiancheng "Timothy" Gu                               !
+ !Licensed under the Apache License, Version 2.0 (the "License");         !
+ !you may not use this file except in compliance with the License.        !
+ !You may obtain a copy of the License at                                 !
+ !                                                                        !
+ !    http://www.apache.org/licenses/LICENSE-2.0                          !
+ !                                                                        !
+ !Unless required by applicable law or agreed to in writing, software     !
+ !distributed under the License is distributed on an "AS IS" BASIS,       !
+ !WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.!
+ !See the License for the specific language governing permissions and     ！
+ !limitations under the License.                                          ！
+ !------------------------------------------------------------------------->
 
 ALAC
 ====
@@ -65,6 +65,15 @@ This method works if:
    dpkg-buildpackage
    ```
 5. The .deb's will be in the parent folder of the source code directory.
+
+### Visual Studio
+
+** The resulting binary might not work. I don't know why. Do this on
+   your own risk.**
+
+1. Go to compat.
+2. Go to corresponding folder match your VS version.
+3. Open up the solution and build it.
 
 <!--
 ## Binaries
@@ -121,4 +130,3 @@ alacconvert.1, configure.ac, README.md:
 
 * PPA
 * `EXTRA_DIST` variable in Makefile.am's
-* Visual Studio project files
