@@ -20,6 +20,8 @@ Apple Lossless Audio Codec with autotools. This repo uses the source
 code from http://alac.macosforge.org/ and wrap it around using
 autotools and Debian build toolchain.
 
+**This thing is unmaintained. Use this on your own risk.**
+
 ## Prerequisites, if you want to build it yourself
 
 * git: to clone this repo. Optional if you are using a tarball.
