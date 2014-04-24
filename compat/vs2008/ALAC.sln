@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alacconvert", "alacconvert\alacconvert.vcproj", "{18EDC0E7-E78F-4D3B-B2AB-4371A6F9B743}"
+	ProjectSection(ProjectDependencies) = postProject
+		{373F2C37-8D95-4084-8B8E-9D8BB3A55655} = {373F2C37-8D95-4084-8B8E-9D8BB3A55655}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libalac", "libalac\libalac.vcproj", "{373F2C37-8D95-4084-8B8E-9D8BB3A55655}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EDC0E7-E78F-4D3B-B2AB-4371A6F9B743}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18EDC0E7-E78F-4D3B-B2AB-4371A6F9B743}.Debug|Win32.Build.0 = Debug|Win32
+		{18EDC0E7-E78F-4D3B-B2AB-4371A6F9B743}.Release|Win32.ActiveCfg = Release|Win32
+		{18EDC0E7-E78F-4D3B-B2AB-4371A6F9B743}.Release|Win32.Build.0 = Release|Win32
+		{373F2C37-8D95-4084-8B8E-9D8BB3A55655}.Debug|Win32.ActiveCfg = Debug|Win32
+		{373F2C37-8D95-4084-8B8E-9D8BB3A55655}.Debug|Win32.Build.0 = Debug|Win32
+		{373F2C37-8D95-4084-8B8E-9D8BB3A55655}.Release|Win32.ActiveCfg = Release|Win32
+		{373F2C37-8D95-4084-8B8E-9D8BB3A55655}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
