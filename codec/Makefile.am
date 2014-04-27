@@ -11,15 +11,9 @@
 ## See the License for the specific language governing permissions and
 ## limitations under the License.
 
-LIB_SRC = .
-
-INCLUDES = -I.
-
-# Copied from makefile.orig
-AM_CFLAGS = -g -O3 -c
-
 lib_LTLIBRARIES = libalac.la
 
+libalac_la_CPPFLAGS = -I.
 libalac_la_LDFLAGS = -version-info @ALAC_VERSION@ -no-undefined -Wall
 
 libalac_la_SOURCES = \
@@ -33,6 +27,9 @@ libalac_la_SOURCES = \
     dp_enc.c \
     matrix_dec.c \
     matrix_enc.c
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = alac.pc
 
 # Install to include/alac
 alacincludedir = $(includedir)/alac

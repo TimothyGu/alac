@@ -11,10 +11,11 @@
 ## See the License for the specific language governing permissions and
 ## limitations under the License.
 
-INCLUDES = -I. -I$(top_srcdir)/codec
+man1_MANS = alacconvert.1
 
 bin_PROGRAMS = alacconvert$(EXEEXT)
 
+alacconvert_CPPFLAGS = -I. -I$(top_srcdir)/codec
 alacconvert_LDADD = ../codec/libalac.la
 alacconvert_SOURCES = \
     main.cpp \

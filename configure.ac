@@ -62,5 +62,5 @@ AC_SUBST(ALAC_VERSION)
 AC_CONFIG_FILES([Makefile
                  codec/Makefile
                  convert-utility/Makefile
-                 alac.pc])
+                 codec/alac.pc])
 AC_OUTPUT

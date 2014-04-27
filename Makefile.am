@@ -13,14 +13,10 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-AM_CFLAGS = -I$(top_srcdir)/codec -g -O3 -c
-
-pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = alac.pc
+AM_CXXFLAGS = -I$(top_srcdir)/codec -g -O3 -c
 
 if EXAMPLE
 EXAMPLE_DIR = convert-utility
-man1_MANS = alacconvert.1
 endif
 
 SUBDIRS = codec $(EXAMPLE_DIR)
