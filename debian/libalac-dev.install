@@ -1,5 +1,4 @@
-debian/tmp/usr/include/alac/*
-debian/tmp/usr/lib/*/*.a
-debian/tmp/usr/lib/*/*.so
-debian/tmp/usr/lib/*/*.la
-debian/tmp/usr/lib/*/pkgconfig/*.pc
+/usr/include
+/usr/lib/*/*.a
+/usr/lib/*/*.so
+/usr/lib/*/pkgconfig

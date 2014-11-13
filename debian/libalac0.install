@@ -1,1 +1,1 @@
-debian/tmp/usr/lib/*/libalac.so.*
+/usr/lib/*/libalac.so.*
