@@ -4,6 +4,16 @@
 /aclocal.m4
 /compile
 /configure
+/config.guess
+/config.sub
+/depcomp
+/install-sh
+/ltmain.sh
+/missing
+
+/debian/autoreconf.after
+/debian/autoreconf.before
+
 
 Makefile.in
 
